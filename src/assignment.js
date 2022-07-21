@@ -51,7 +51,8 @@ function countEvenNumbers(arrayOfNumbers) {
     // return evenNumber.length;
     for (let index = 0; index <= arrayOfNumbers.length; index++) {
         if (arrayOfNumbers[index] % 2 === 0) {
-            evenNumber.push(arrayOfNumbers[index]);
+            const newValue = arrayOfNumbers[index];
+            evenNumber.push(newValue);
             // console.log(evenNumber);
         }
         // arrayOfNumbers[index] % 2 === 0;
